@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    color: #5C5C5C;
+}
+
+/* ================Mantvydas=============== */
+
+header {
+    padding: 0px 30px;
+    z-index: 2;
+    background: linear-gradient(to bottom, #7898be, rgba(120, 152, 190, 0));
+}
+
+.header-inside {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-menu li {
+    margin: 0 15px;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo img {
+    max-width: 180px;
+}
+
+.navigation-links {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    font-size: 17px;
+}
+
+.navigation-links:hover {
+    opacity: 60%;
+}
+
+.text h1 {
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text h3 {
+    color: rgb(255, 254, 254);
+    font-size: 50px;
+    font-weight: 500;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.banner-3 {
+    position: absolute;
+    top: -207px;
+    left: 0;
+    width: 100%;
+    height: 838px;
+    z-index: -2;
+}
+
+
+.location {
+    outline: 0;
+    display: inline-block;
+    border-width: 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    line-height: normal;
+    padding: 13px 26px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 1;
+    position: relative;
+    border-radius: 300px;
+    border-color: #fff;
+    color: #5c5c5c;
+    box-shadow: 0 2px 0 0 #ebebeb;
+    background-color: #fff;
+}
+
+.header-container {
+    letter-spacing: .3px;
+    color: #5c5c5c;
+    max-width: 1080px;
+    padding: 30px 34px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* ==============Mantvydas============= */
+
+/* ================Sandra=============== */
+
+.services {
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.servicesBoxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin: auto;
+
+}
+
+.servicesBox {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.servicesBox img {
+    width: 100%;
+}
+
+.servicesBox h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .7px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: #5c5c5c;
+
+}
+
+.servicesBox p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: .3px;
+    line-height: 1.6em;
+    color: #5c5c5c;
+}
+
+.servicesBox a {
+    text-decoration: none;
+    color: #c23f3e;
+}
+
+/* ================Sandra=================== */
+
+/* ================Arturas================== */
+
+.pics_png_section {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5acd6b71da02bcf0fc160fce/1530037912556-1TP4TRNY5WKOMDIO91Q0/banner-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.container_png .text_0001 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_png .text_0001 h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3em;
+    letter-spacing: 0.01em;
+    text-align: center;
+    max-width: 567px;
+}
+
+.container_png .text_0001 p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 36px;
+}
+
+.spacer_box {
+    position: relative;
+    display: block;
+    padding: 17px;
+    width: 925px;
+    height: 44.1px;
+}
+
+.png_0001 img {
+    width: 100%;
+    height: auto;
+    max-width: 140px;
+    display: block;
+    margin: 0 auto;
+    padding: 17px;
+}
+
+.pics_png_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.pics_png_column1 {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+    gap: 0px;
+}
+
+.pics_png_column2 {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+    gap: 0px;
+}
+
+@media (max-width: 768px) {
+    .pics_png_column1 {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .pics_png_column2 {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    }
+}
+
+
+.txt_0001 h3 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4em;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin: 0px;
+    text-align: center;
+    white-space: pre-wrap;
+    padding: 17px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==============Arturas=============== */
+
+/* ===============Vitalij===================== */
+
+.comments {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+.comments h2 {
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: .01em;
+}
+
+.commentsAndLogos {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentsAndLogos ul li {
+    list-style-type: none;
+}
+
+.red-star {
+    color: crimson;
+    font-size: 20px;
+
+}
+
+.agness {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+
+}
+
+.estre {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+
+}
+
+.jose {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+
+}
+
+.ashley {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+
+}
+
+body>section>div>ul>li:nth-child(1)>h3>span.google>img {
+    width: 25px;
+    height: 25px;
+    margin-left: 248px;
+    margin-top: 3px;
+    position: absolute;
+
+}
+
+
+body>section>div>ul>li:nth-child(2)>h3>span.google>img {
+    width: 25px;
+    height: 25px;
+    margin-left: 206px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+body>section>div>ul>li:nth-child(3)>h3>span.google>img {
+    width: 25px;
+    height: 25px;
+    margin-left: 125px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+body>section>div>ul>li:nth-child(4)>h3>span.google>img {
+    width: 25px;
+    height: 25px;
+    margin-left: 247px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+.para {
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.para a {
+    color: crimson;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+}
+
+/* ==================Vitalij=================== */
+
+
+/* =============Ricardas================= */
+
+/* ============FAQ============= */
+
+.faq-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ecf1f8;
+}
+
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 34px;
+    gap: 20px;
+    width: fit-content;
+}
+
+strong {
+    color: #C23F3E;
+}
+
+.name {
+    text-align: center;
+    font-size: 30px;
+    padding: 17px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+}
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 17px;
+}
+
+.question {
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 4.8px;
+}
+
+.answer {
+    display: none;
+    border-top: solid 1px #ccc;
+    font-size: 15px;
+    padding: 15px 0px;
+    margin: 0;
+    background-color: transparent;
+    width: 80%;
+}
+
+/* ==============Ricardas==================== */
